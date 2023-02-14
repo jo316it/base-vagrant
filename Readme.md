@@ -1,7 +1,14 @@
+# Generate Vms Vitual Box
 
-# Gerar Vms Vitual Box
+Simple script that creates X amount of vms in V-box with Docker for creation and clusters
 
-Simples script que cria quantidade X de vms no V-box com Docker para criação e clusters
+* Replace the range values with the number of instances you wish to have
+* Replace the image name with your preference
 
-* Substitua os valores do range pela quantidade de instancias que deseja ter.
-* Substitua o nome da imagem para de sua preferência.
+
+* ```vagrant up```: Instantiate vms
+* ```vagrant ssh vm```: Access the VM where "vm" must be replaced by the given instance name;
+* ```vagrant reload ```: Restart running VM instance(s)
+* ```vagrant status vm ```: Query VM status;
+* ```vagrant destroy vm ```: Destroy vm, if you do not enter the vm name, it will destroy the set of vms with confirmation.
+
